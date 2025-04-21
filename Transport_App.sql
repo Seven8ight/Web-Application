@@ -9,22 +9,22 @@ passenger_phone_number int
 );
 
 CREATE TABLE Driver (
-Driver_id int auto_increment primary key,
-Driver_name varchar(255) not null,
-Driver_license_number int not null,
-Driver_phone_number int not null
+driver_id int auto_increment primary key,
+driver_name varchar(255) not null,
+driver_license_number int not null,
+driver_phone_number int not null
 );
  
 CREATE TABLE Dispatcher (
-Dispatcher_id int auto_increment primary key,
-Dispatcher_name varchar(255) not null,
-Dispatcher_phone_number int not null
+dispatcher_id int auto_increment primary key,
+dispatcher_name varchar(255) not null,
+dispatcher_phone_number int not null
 );
 
 CREATE TABLE System_Administrator(
-Admin_id int auto_increment primary key,
-Admin_username varchar(255) not null,
-Admin_password varchar(255) not null 
+admin_id int auto_increment primary key,
+admin_username varchar(255) not null,
+admin_password varchar(255) not null 
 );
 
 CREATE TABLE Route (
